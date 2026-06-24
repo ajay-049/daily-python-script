@@ -1,0 +1,7 @@
+A=input("Enter a list of elements separated by spaces: ").split()
+print("Original list:", A)
+print("First element:", A[0])
+print("Last element:", A[-1])
+print("Second element:", A[1])
+print("Third element:", A[2])
+print("Elements from index 1 to 3:", A[1:4])
